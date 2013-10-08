@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Environment.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Enemy.cs" Line="6" Column="2" />
+      <File FileName="Assets\Scripts\helicopterRotor.cs" Line="32" Column="27" />
+      <File FileName="Assets\Scripts\HelicopterHealth.cs" Line="27" Column="59" />
+      <File FileName="Assets\destroybelObject.cs" Line="28" Column="8" />
+      <File FileName="Assets\bulletFlight.cs" Line="39" Column="3" />
+      <File FileName="Assets\fire.cs" Line="21" Column="17" />
+      <File FileName="Assets\Scripts\Environment.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ConstantRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\cameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StaticGunRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Victory.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CursorMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GunRotation.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
