@@ -22,9 +22,16 @@ public class HelicopterHealth : MonoBehaviour {
 	{
 		Environment env = collision.gameObject.GetComponent<Environment>();
 		Enemy enemy = collision.gameObject.GetComponent<Enemy>();
-		if (env != null || enemy != null)
+		if (env != null)
+		{			
+			ReduceHealth(collision.relativeVelocity.magnitude);
+			//ReduceHealth(m_Health);
+		}
+		
+		if (enemy != null)
 		{
-			ReduceHealth(collision.relativeVelocity.magnitude / 5);
+			ReduceHealth(20);
+			enemy.Falling();
 		}
 		
 		Victory vic = collision.gameObject.GetComponent<Victory>();

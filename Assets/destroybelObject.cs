@@ -9,7 +9,7 @@ public class destroybelObject : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		anim = GetComponent<Animation>();
+		//anim = GetComponent<Animation>();
 	}
 	
 	// Update is called once per frame
@@ -22,12 +22,14 @@ public class destroybelObject : MonoBehaviour {
 			return;
 		
 		health -= damage;
-		if (health <= 0) {
+		if (health <= 0 && gameObject.GetComponent<Enemy>() != null)
+			gameObject.GetComponent<Enemy>().Falling();
+		/*if (health <= 0) {
 			if (null == anim)
 				Object.Destroy(gameObject);
 			else
 				anim.Play("idle0");
-		}
+		}*/
 	}
 	
 }

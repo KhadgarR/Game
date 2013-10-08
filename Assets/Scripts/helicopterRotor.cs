@@ -7,8 +7,8 @@ public class helicopterRotor : MonoBehaviour {
 	public int speedX = 1;
 	public int speedY = 1;	
 	private Rigidbody m_Rigid = null;
-	public float m_SensitivityForce = 1;
-	public float m_SensitivityRotate = 1;
+	//public float m_SensitivityForce = 1;
+	//public float m_SensitivityRotate = 1;
 	
 	// Use this for initialization
 	void Start () {

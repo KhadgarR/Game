@@ -8,7 +8,6 @@ public class fire : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
@@ -24,6 +23,6 @@ public class fire : MonoBehaviour {
 			
 			//newBullet.transform.Rotate(new Vector3(0, 90, 0));
 		}
-		
+
 	}
 }

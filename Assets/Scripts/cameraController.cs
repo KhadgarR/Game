@@ -15,6 +15,7 @@ public class cameraController : MonoBehaviour {
 	void Update () {
 		Vector3 pos = m_Helicopter.transform.position;
 		
-		transform.position = new Vector3(pos.x, pos.y, transform.position.z);
+		transform.position = new Vector3(pos.x + camera.orthographicSize, pos.y, transform.position.z);
+		//Debug.Log(camera.orthographicSize);
 	}
 }
